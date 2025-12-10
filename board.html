@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="board.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="header">
+        <div class="boardname">SCOREBOARD</div>
+        <button class="boardname restart-button">RESTART</button>
+      </div>
+      <!--Header Over-->
+      <!--Middle Section-->
+      <div class="middleSection">
+        <div class="panel">
+          <div class="leftpanel">
+            <div class="teamPanel">
+              <div class="teamName">HOME</div>
+              <div class="teamScore">
+                <div class="score-display teamScore1">000</div>
+
+                <div class="score-button-positive">
+                  <button class="score-button increment1" onclick="increment1Team1()">+1</button>
+                  <button class="score-button" onclick="increment2Team1()">+2</button>
+                  <button class="score-button" onclick="increment3Team1()">+3</button>
+                </div>
+                <div class="score-button-negative">
+                  <button class="Score-button-2" onclick="incrementNeg1Team1()">-1</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rightpanel">
+            <div class="teamPanel">
+              <div class="teamName">AWAY</div>
+              <div class="teamScore">
+                <div class="score-display teamScore2">000</div>
+
+                <div class="score-button-positive">
+                  <button class="score-button increment2" onclick="increment1Team2()">+1</button>
+                  <button class="score-button" onclick="increment2Team2()">+2</button>
+                  <button class="score-button" onclick="increment3Team2()">+3</button>
+                </div>
+                <div class="score-button-negative">
+                  <button class="Score-button-2" onclick="incrementNeg1Team2()">-1</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="quarter">
+          <div class="font">QUARTER</div>
+          <div class="number-size">4</div>
+        </div>
+        <div class="timer">
+          <div class="font">TIME</div>
+          <div class="number-size timer-text">12:00</div>
+          <div class="timer-button">
+            <button class="timer-button-size" onclick="startTimer()">START</button>
+            <button class="timer-button-size"  onclick="resetTimer()">RESET</button>
+          </div>
+        </div>
+        <div class="period">
+          <div class="font">PERIOD</div>
+          <div class="dots">
+            <button class="dot-design"></button>
+            <button class="dot-design"></button>
+            <button class="dot-design"></button>
+            <button class="dot-design"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="board.js"></script>
+  </body>
+</html>
+

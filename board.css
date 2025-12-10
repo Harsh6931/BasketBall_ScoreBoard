@@ -1,0 +1,182 @@
+/*.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+.headerbutton{
+    margin: 20px 10px 15px 10px ;
+}
+.resetbutton{
+    padding: 10px 10px 10p 10px;
+}
+.middle{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.section{
+    height: 400px;
+}
+.lower{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}*/
+
+.page{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Important to make footer at bottom*/
+    /*Set the entire window as same length as screen*/
+}
+.header{
+    height: 70px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;;
+}
+.boardname{
+    margin: 25px;
+    
+}
+.restart-button{
+    padding: 15px 10px 15px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+.middleSection{
+    border: 2px solid black;
+    /*height: 360px;*/  /*Create Box for body*/
+    flex-grow: 1;
+    padding: 30px 30px 30px 30px;
+    margin-bottom: 30px;
+}
+.panel{
+    /*border: 2px solid black;*/
+    height: 100%;
+    display: flex;
+    flex-direction: row
+}
+.leftpanel{
+    /*border: 2px solid black;*/ /*Just eliminated for DEsign purpose*/
+    width: 50%;
+    /*height: 100%; *//* This paramter are imp to learn*/
+
+}
+.rightpanel{
+    /*border: 2px solid black;*/
+    width: 50%;
+    /*height: 100%;*/ 
+}
+.teamPanel{
+    display: flex;
+    flex-direction: column;
+
+}
+.teamName{
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    
+}
+.teamScore{
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    height: 276px;
+
+}
+.score-display{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.score-button-positive{
+    display: flex;
+    justify-content:center;
+    gap: 4px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.score-button{
+    width: 100%;  /*Important to adjust button size*/
+    height: 40px; /*Adjust according to screen size*/
+    text-align: center;
+    /*font-size: 20px;*/
+}
+.Score-button-2{
+    width: 100%;
+}
+.score-button-negative{
+    display: flex;
+    justify-content:center;
+    gap: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 40px;
+}
+.footer{
+    margin-top: auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.font{
+    font-size: 16px;
+}
+.number-size{
+    font-size: 60px;
+}
+.quarter{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.timer{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.timer-button-size{
+    text-align: center;
+    height: 30px;
+    width: 80px;
+}
+.period{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.dot-design{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.start-emoji{
+    font-size: large;
+}
+
